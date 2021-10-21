@@ -4,8 +4,8 @@ In this repo you will find some development challenges to test my coding (and mo
 
 ## Back-end
 
-[Node.js](https://github.com/improvein/dev-challenge/tree/master/backend-nodejs)
+[Node.js](https://github.com/rafaelmian1/improvein_challenge/tree/master/backend-nodejs)
 
 ## Front-end
 
-[React](https://github.com/improvein/dev-challenge/tree/master/frontend-react)
+[React](https://github.com/rafaelmian1/improvein_challenge/tree/master/frontend-react)
