@@ -1,0 +1,75 @@
+.bandContainer {
+  width: 100%;
+  min-height: 80vh;
+  flex: 1;
+  padding: 3vw;
+  background-color: rgb(189, 189, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.albumCard,
+.bandCard {
+  width: 300px;
+  height: 300px;
+  background-color: whitesmoke;
+  margin: 5vh auto;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  width: 80vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3vh;
+  padding: 0 1vw;
+  background-color: rgb(87, 87, 156);
+  box-shadow: 2px 2px 2px black;
+  border-radius: 10px;
+}
+
+.header span {
+  cursor: pointer;
+}
+.resetButton,
+label {
+  margin-left: 3vw;
+  margin-right: 1vw;
+}
+.modal button,
+.resetButton,
+select {
+  padding: 0.5vh 1vw !important;
+}
+.albumContainer,
+.cardsContainer {
+  width: 100%;
+  display: grid;
+  grid: 400px / auto auto auto;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading {
+  position: fixed;
+  top: 30vh;
+  left: 47%;
+  color: whitesmoke;
+}

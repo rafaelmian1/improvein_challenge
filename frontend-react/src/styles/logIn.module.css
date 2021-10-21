@@ -1,0 +1,12 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+.loginContainer button,
+.loginContainer input {
+  padding: 2vh 3vw;
+  margin: 2vh 0;
+}
